@@ -8,5 +8,3 @@ def frequencies(items):
         frequencies[items[i]] = items.count(items[i])
     # Your code goes here
     return frequencies
-
-print(frequencies([100, 'Hello', '100', '100', 100]))
